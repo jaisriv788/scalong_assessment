@@ -1,4 +1,4 @@
-# Scaling Assessment Project
+# RBAC Assessment Project
 
 This repository contains a Next.js application for the scaling assessment project.
 
