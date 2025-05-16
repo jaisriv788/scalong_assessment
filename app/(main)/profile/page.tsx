@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { useSession } from "next-auth/react";
 import { redirect } from "next/navigation";
 import { updateUserName } from "../../lib/updateusername";
-import SignOutButton from "@/app/components/SignOutButton";
+// import SignOutButton from "@/app/components/SignOutButton";
 import Link from "next/link";
 
 export default function ProfilePage() {
