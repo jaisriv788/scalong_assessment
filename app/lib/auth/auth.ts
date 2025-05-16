@@ -26,12 +26,6 @@ declare module "next-auth" {
   }
 }
 
-type Credentials = {
-  email: string;
-  password: string;
-  role: "USER" | "ADMIN";
-};
-
 export const options = {
   providers: [
     CredentialsProvider({
